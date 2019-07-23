@@ -9,6 +9,11 @@ import Notifications from '~/components/Notifications';
 
 export default function Header() {
   const profile = useSelector(state => state.user.profile);
+  let image = '';
+
+  if (profile.avatar) {
+    image = profile.avatar.url;
+  }
 
   return (
     <Container>
@@ -27,8 +32,7 @@ export default function Header() {
             </div>
             <img
               src={
-                profile.avatar.url ||
-                'https://api.adorable.io/avatars/50/abott@adorable.png'
+                image || 'https://api.adorable.io/avatars/50/abott@adorable.png'
               }
               alt="Diego Fernandes"
             />
