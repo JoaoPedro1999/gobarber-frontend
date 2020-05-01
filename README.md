@@ -1,6 +1,6 @@
 <h1 align="center">Gobarber</h1>
 
-<p align="center">Aplication made to book hairdressing services </p>
+<p align="center">Application made to book hairdressing services </p>
 
 <h2>Developed using: </h2>
 <ul>
@@ -17,6 +17,6 @@ Enter in the paste and run `yarn` or `npm install`
 
 After this process was finished, run `yarn start` or `npm run start`
 
-The application will open in `http://localhost:3000`
+The application will open on `http://localhost:3000` in your browser
 
 
